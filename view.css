@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text {
+    padding-top: 70px;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p_text {
+    padding-top: 24px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.photo {
+    display: flex;
+    padding-top: 63px;
+    padding-left: 265px;
+}
+
+.macbook_text {
+    padding-top: 35px;
+    padding-left: 76px;
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.color_text {
+    padding-left: 76px;
+    color: #0071E3;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn_blue:hover {
+    background-color: #fff;
+    color: #0071E3;
+    border: 2px solid #0071E3;
+    box-shadow: 5px 5px 0px #0071E3;
+}
+
+.btn_blue:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.btn_blue2:hover {
+    background-color: #fff;
+    color: #0071E3;
+    border: 2px solid #0071E3;
+    box-shadow: 5px 5px 0px #0071E3;
+}
+
+.btn_blue2:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.buy {
+    padding-top: 48px;
+    padding-left: 76px;
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn {
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 59px;
+}
+
+.btn_blue {
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    background: #0071E3;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_blue2 {
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    background: #CFE7FF;
+    border: none;
+    color: #797979;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn2 {
+    text-align: center;
+    margin-top: 39px;
+    margin-left: 15px;
+}
+
+.btn_GB_SSD {
+    text-align: left;
+    padding-left: 20px;
+    width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    background: #FFF;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_GB_SSD:hover {
+    background-color: #fff;
+    color: #0071E3;
+    border: 2px solid #0071E3;
+    box-shadow: 5px 5px 0px #0071E3;
+}
+
+.btn_GB_SSD:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.btn_TB_SSD {
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 432px;
+    margin-top: 7px;
+    display: block;
+    width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    border: 2px solid #CFE7FF;
+    background: #FFF;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_TB_SSD:hover {
+    background-color: #fff;
+    color: #0071E3;
+    border: 2px solid #0071E3;
+    box-shadow: 5px 5px 0px #0071E3;
+}
+
+.btn_TB_SSD:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.btn2 span {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 145px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+
+    .p_text {
+        font-size: 16px;
+    }
+
+    .macbook_text {
+        padding-left: 13px;
+    }
+
+    .color_text {
+        padding-left: 15px;
+    }
+
+    .buy {
+        padding-left: 15px;
+    }
+
+    .btn_TB_SSD {
+        margin-left: 281px;
+    }
+
+    .photo {
+        
+        padding-left: 173px;
+}
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+
+    .p_text {
+        font-size: 12px;
+    }
+
+    .photo {
+        display: flex;
+        padding-top: 63px;
+        padding-left: 90px; 
+    }
+
+    .color_text {
+        padding-left: 120px;
+    }
+
+    .macbook_text {
+        padding-left: none;
+    }
+    
+    .buy {
+        padding-left: 80px;
+    }
+
+    .btn_TB_SSD {
+        margin-left: 182px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+
+    .photo img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .photo {
+        display: flex;
+        padding-top: 63px;
+        padding-left: 5px;
+    }
+
+    .color_text {
+        padding-left: 95px;
+    }
+
+    .buy {
+        padding-top: 15px;
+        padding-left: 58px;
+        font-size: 40px;
+    }
+
+    .btn_TB_SSD {
+        margin-left: 82px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .macbook_text {
+        font-size: 40px;
+        padding-left: 28px;
+    }
+
+    .buy {
+        padding-top: 15px;
+        padding-left: 74px;
+        font-size: 33px;
+    }
+
+    .color_text {
+        padding-left: 115px;
+    }
+    
+    .buy {
+        padding-top: 15px;
+        padding-left: 90px;
+        font-size: 33px;
+    } 
+
+    .btn_TB_SSD {
+        margin-left: 105px;
+    }
+}
+
+.active {
+    background-color: #CFE7FF;
+}
